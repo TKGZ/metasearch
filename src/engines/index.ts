@@ -4,6 +4,7 @@ import drive from "./drive";
 import dropbox from "./dropbox";
 import figma from "./figma";
 import github from "./github";
+import gitlab from "./gitlab";
 import greenhouse from "./greenhouse";
 import groups from "./groups";
 import guru from "./guru";
@@ -11,6 +12,7 @@ import hound from "./hound";
 import jenkins from "./jenkins";
 import jira from "./jira";
 import lingo from "./lingo";
+import mattermost from "./mattermost";
 import notion from "./notion";
 import pagerduty from "./pagerduty";
 import pingboard from "./pingboard";
@@ -28,6 +30,7 @@ const engines: Engine[] = [
   dropbox,
   figma,
   github,
+  gitlab,
   greenhouse,
   groups,
   guru,
@@ -35,6 +38,7 @@ const engines: Engine[] = [
   jenkins,
   jira,
   lingo,
+  mattermost,
   notion,
   pagerduty,
   pingboard,

@@ -93,6 +93,13 @@ engines:
     # GitHub personal access token
     token: abcdef0123456789abcdef0123456789abcdef01
 
+  # GitLab Merge Requests
+  gitlab:
+    # GitLab API origin (optional, defaults to https://gitlab.com)
+    origin: https://gitlab.com
+    # GitLab personal access token
+    token: abcdef0123456789abcdef0123456789abcdef01
+
   # Greenhouse job posts
   greenhouse:
     # Board token
@@ -144,6 +151,14 @@ engines:
       - https://www.lingoapp.com/space/1234/k/34AFA130-49FC-43E1-8BA0-5F8849FE5FDE?kit_token=Ex4mp1eEx4mp1eEx4mp1eEx4mp1eEx4mp1eEx4mp1eE
       - https://www.lingoapp.com/1234/k/Icons-RWEr24?kit_token=Ex4mp1eEx4mp1eEx4mp1eEx4mp1eEx4mp1eEx4mp1eE
       - https://www.lingoapp.com/1234/k/Illustrations-Ex4mp1
+
+  # Mattermost posts
+  mattermost:
+    origin: https://my-mattermost-server.com
+    team: team-name
+    # Create a bot and use the token here.
+    # In order to search non-public channels, add the bot as a member to the channel
+    token: Ex4mp1eEx4mp1eEx4mp1eEx4mp1eEx4mp1eEx4mp1eE
 
   # Notion page titles
   notion:
